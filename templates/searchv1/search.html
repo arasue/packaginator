@@ -15,7 +15,7 @@
                 {{ form|as_uni_form }}
 
             <div class="form_block">        
-                <input type="submit" name="b" value="{% trans "Search" %}" class="medium awesome forestgreen"> 
+                <input type="submit" name="b" value="{% trans "Search" %}" class="medium awesome orange"> 
             </div>            
         </fieldset>
     </form>
@@ -26,7 +26,7 @@
           <h2>{% if packages.count %}{% trans "Packages" %}{% else %}{% trans "No packages found" %}{% endif %}</h2>
           <p>
           {% if request.user.is_authenticated and profile.can_add_package %}
-              <a class="medium awesome forestgreen" href="{% url add_package %}">{% trans "add package »" %}</a>
+              <a class="medium awesome orange" href="{% url add_package %}">{% trans "add package »" %}</a>
           {% endif %}
               <a href="{% url latest_packages %}">{% trans "latest" %}</a> <a href="{% url packages %}">{% trans "all" %}</a>
           </p>
@@ -38,7 +38,7 @@
           <h2>{% if grids.count %}{% trans "Grids" %}{% else %}{% trans "No grids found" %}{% endif %}</h2>
           <p>
           {% if request.user.is_authenticated and profile.can_add_grid %}
-            <a class="medium awesome forestgreen" href="{% url add_grid %}">{% trans "add grid »" %}</a>
+            <a class="medium awesome orange" href="{% url add_grid %}">{% trans "add grid »" %}</a>
           {% endif %}
               <a href="{% url latest_grids %}">{% trans "latest" %}</a> <a href="{% url grids %}">{% trans "all" %}</a>
           </p>

@@ -17,7 +17,7 @@ h2 { font-size: 153.9%; }
 }
 
 /* This overrides styles from base.css */
-#top_border { height:10px; background: #75DFCA; }
+#top_border { height:10px; background: #e2621b; }
 
 #tabhead { border: 0; position: relative; }
 
@@ -40,7 +40,7 @@ h2 { font-size: 153.9%; }
 
 /* Search box */
 #id_q_p { width:380px; height:26px; border:1px solid #999999; margin:0; padding:0 5px; vertical-align:top;}
-input#magnifier-submit { background: url('../img/search.png') #87deaa no-repeat center; border:0; height:28px; width:36px; margin:0 0 6px -5px; padding:0; vertical-align:top; border: 1px solid #999;}
+input#magnifier-submit { background: url('../img/search.png') #e2621b no-repeat center; border:0; height:28px; width:36px; margin:0 0 6px -5px; padding:0; vertical-align:top; border: 1px solid #999;}
 .home-searchcheckbox { margin: 0 2px 0 10px; }
 
 /* autocomplete */
@@ -56,7 +56,7 @@ input#magnifier-submit { background: url('../img/search.png') #87deaa no-repeat 
 #multi-col-nav a:hover { font-weight: 800; }
 
 /* Style all tables the same way throughout the site  */
-th { font-size: 11px; color: #4f6b72; border: 1px solid #C1DAD7; letter-spacing: 2px; text-transform: uppercase; text-align: left; padding: 6px 6px 6px 12px; background: #C0F1D1; }
+th { font-size: 11px; color: #4f6b72; border: 1px solid #C1DAD7; letter-spacing: 2px; text-transform: uppercase; text-align: left; padding: 6px 6px 6px 12px; background: #e2c51a; }
 td { border: 1px solid #C1DAD7; background: #fff; padding: 6px 6px 6px 12px; color: #4f6b72; }
 .clickable { background: #f9f6d8; cursor:pointer;}
 
@@ -74,7 +74,7 @@ ul#messages li {background-color: #FFB; border: 1px solid #EE0; list-style-type:
 td.usage-container {width: 8em}
 td.usage-container .usage-button {float: right}
 
-#site_wide_announcements {background-color: #75dfca;}
+#site_wide_announcements {background-color: #e2621b;}
 
 .clearfix {clear:both;}
 
